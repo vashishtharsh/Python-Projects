@@ -1,0 +1,60 @@
+a=input("Do you want to play:-")
+if (a=="yes"):
+    
+   print("Q:1. What is the brand of Bike ")
+   print("a.Harley Davidson")
+   print("b.Gucci")
+   print("c.Dell")
+   a=input()
+   if a=="a":
+     print("Good job , Your answer is correct",a)
+   else:
+     print("Ohhh, Wrong answer :Try again")
+   if (a=="yes"):
+   
+     print("Q:2. How many teachers for BCA 3")
+     print("a.7")
+     print("b.5")
+     print("c.2")
+   a=input()
+   if a=="b":
+     print("Good job , Your answer is correct",a)
+   else:
+     print("Ohhh, Wrong answer :Try again")
+   if (a=="yes"):
+    
+     print("Q:3. Which country has World's powerful defence army")
+     print("a.Australia")
+     print("b.India")
+     print("c.Seria")
+   a=input()
+   if a=="c":
+     print("Good job , Your answer is correct",a)
+   else:
+     print("Ohhh, Wrong answer :Try again")
+   if (a=="yes"):
+    
+     print("Q:4. Where us the Iron pillar in India")
+     print("a.West Bengal")
+     print("b.New Delhi")
+     print("c.Karnataka")
+   a=input()
+   if a=="b":
+     print("Good job , Your answer is correct",a)
+   else:
+     print("Ohhh, Wrong answer :Try again")
+   if (a=="yes"):
+    
+    print("Q:5. What is the Capital of Astralia")
+     print("a.tokyo")
+     print("b.Kathmandu")
+     print("c.Canberra")
+   a=input()
+   if a=="c":
+     print("Good job , Your answer is correct",a)
+   else:
+     print("Ohhh, Wrong answer :Try again")
+else:
+     print("bye bye")
+    
+
