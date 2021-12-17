@@ -1,6 +1,9 @@
+print("Welcome to mini Calculator")
 while True:
+    if ==1:
+        
     print("Welcome to mini Calculator")
-    operator=input("\n select the operator(+,-,*,/,%) : ")
+    opt=input("\n select the operator(+,-,*,/,%) : ")
     c1=int(input("\nenter the first number : "))
     c2=int(input("enter the second number : "))
     if operator=="+":
@@ -20,3 +23,5 @@ while True:
 
     else:
         print("invalid operation")
+
+    if ==2:
