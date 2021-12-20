@@ -3,7 +3,7 @@ while True:
     if ==1:
         
     print("Welcome to mini Calculator")
-    opt=input("\n select the operator(+,-,*,/,%) : ")
+    opt=input("\n Select the operator you want(+,-,*,/,%) : ")
     c1=int(input("\nenter the first number : "))
     c2=int(input("enter the second number : "))
     if operator=="+":
