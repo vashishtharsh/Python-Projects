@@ -1,17 +1,14 @@
 import array as a
-arr=a.array('i',[10,20,30])
-l=len(arr)
+arr=a.array('i')
+n=9
+for i in range (0,9):
+    num=int(input())
+    arr.append(num)
 
-for i in range(l):
-    min=arr[0]
-    max=arr[0]
-for i in range(l):
-    if arr[i]<min:
-        min=arr[i]
+print(arr)
 
-for i in range(l):
-    if arr[i]>max:
-        max=arr[i]
-    
-print(min)
-print(max)
+n_row=2
+for i in range(0,len(arr)):
+    if i%((len(arr))/n_row)==0:
+        print()
+        print(arr[i],end="")
