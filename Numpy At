@@ -1,0 +1,6 @@
+import numpy as np
+a=np.array([[1,13,6], [9,4,7], [19,16,2]])
+at=np.empty([a.shape[1],a.shape[0]])
+for i in range(0,a.shape[0]):
+    at[:,i]=a[i,:]
+print(at)
