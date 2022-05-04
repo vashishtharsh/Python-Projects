@@ -1,3 +1,7 @@
+a="HaRsh"
+print(a.lower())
+print(a.upper())
+
 string = input("Please Enter String : ")
 
 string1 = ''
