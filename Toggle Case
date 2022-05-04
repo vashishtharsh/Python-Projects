@@ -1,0 +1,13 @@
+string = input("Please Enter String : ")
+
+string1 = ''
+
+for i in string:
+    if(ord(i) >= 65 and ord(i) <= 90): 
+        string1 = string1 + chr((ord(i) + 32)) 
+    elif(ord(i) >= 97 and ord(i) <= 122):
+        string1 = string1 + chr((ord(i) - 32))
+    else:
+        string1 = string1 + i
+ 
+print("Toggling Case =  ", string1)
