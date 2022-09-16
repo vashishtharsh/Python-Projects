@@ -1,0 +1,87 @@
+print("Enter your DOB")
+m= input("Month: ")
+d= int(input("Day: "))
+
+if m == "january" or m == "January":
+    if d <=26:
+        print("Aquarius")
+    elif d >=26:
+        print("Pisces")
+
+
+if m == "february" or m == "February":
+    if d <=14:
+
+        print("Aquarius")
+    elif d >=14:
+        print("Pisces")
+
+
+if m == "march" or m == "March":
+    if d <=22:
+        print("Aries")
+    elif d >=22:
+        print("Tauras")
+
+
+if m == "april" or m == "April":
+    if d <=24:
+        print("Tauras")
+    elif d >=24:
+        print("Gemini")
+
+
+if m == "may" or m == "May":
+    if d <=22:
+        print("Gemini")
+    elif d >=22:
+        print("Cancer")
+
+
+if m == "june" or m == "June":
+    if d <=21:
+        print("Cancer")
+    elif d >=21:
+        print("Leo")
+
+
+if m == "july" or m == "July":
+    if d <=28:
+        print("Leo")
+    elif d >=28:
+        print("Virgo")
+
+
+if m == "august" or m == "August":
+    if d <=27:
+        print("Virgo")
+    elif d >=27:
+        print("Libra")
+
+
+if m == "september" or m == "September":
+    if d <=24:
+        print("Libra")
+    elif d >=24:
+        print("Scorpio")
+
+
+if m == "october" or m == "October":
+    if d <=29:
+        print("Scorpio")
+    elif d >=29:
+        print("Sagittarius")
+
+
+if m == "november" or m == "November":
+    if d <=25:
+        print("Sagittarius")
+    elif d >=25:
+        print("Capricorn")
+
+
+if m == "december" or m == "December":
+    if d <=25:
+        print("Capricorn")
+    elif d >=25:
+        print("Aquarius")
